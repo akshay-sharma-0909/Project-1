@@ -1,0 +1,178 @@
+*{
+    margin:0;
+    padding:0;
+}
+nav{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    height:80px;
+    background-color:rgb(1,1,52);
+
+}
+nav ul{
+
+    display:flex;
+    justify-content:center;
+    font-style:normal
+
+    
+}
+nav ul li {
+    list-style:none;
+    margin:0 40px;
+    
+}
+nav ul a li{
+    text-decoration:none ;
+    color:white;
+
+}
+nav ul a:hover li{
+    color:lavender;
+}
+
+.left{
+    font-size:30px ;
+}
+
+.first{
+    display:flex;
+    justify-content:space-around;
+    overflow:hidden;
+    align-items:center;
+    margin:50px;
+    height:600px;
+    
+}
+.first >div{
+    width:30%;
+}
+
+.Rightsection img{
+    max-width:90%;
+    float:right;
+    border-radius:50% ;
+    border :7px solid black;
+    margin:50px 0px;
+     
+
+    
+}
+.leftsection{
+    margin:20% 5%;
+    font-size:40px;
+    
+}
+.leftsection input{
+    border-color:10px  solid white;
+    border-radius: 8px;
+    background-color:rgb(1,1,52);
+    color:white;
+    font-size:15px;
+    height:40px;
+    width:100px;
+    padding :0px 2px;
+}
+
+.leftsection span{
+    color:blueviolet;
+}
+
+
+    
+
+body{
+    background-color:rgb(1,1,33);
+    color:white;
+
+}
+.second{
+    height:720px;
+    justify-content:space-around;
+    
+    
+}
+.ex{
+    border:0;
+    background-color:rgb(72, 72, 159);
+    height:1.2px;
+}
+ .second p{
+    margin:10px 130px;
+    color:grey;
+
+}
+h1{
+    font-size: 30.4px;
+    margin:0px 150px;
+
+}
+.ex2{
+    height:1.5px;
+    background-color: white;
+    margin:56px 200px;
+    width:80%;
+    
+}
+.box{
+    display:flex;
+    justify-content: space-around;
+
+}
+.vertical ul li{
+    font-size:28px;
+    list-style:none;
+    color:grey;
+
+}
+.vertically img{
+    max-width:500px;
+    align-items: center;
+}
+
+footer{
+    background-color: #060531;
+    height:300px;
+}
+.flex{
+    display:flex;  
+}
+.footerfirst{
+    display:flex;
+    margin:30px 203px;
+    color:white;
+
+}
+.footersecond{
+    display:flex;
+    margin:30px 0px;
+}
+.footersecond ul li{
+    list-style: none;
+    font-size: 20px;
+    padding:3px 0px;
+    color:white;
+}
+.footerthird{
+    display:flex;
+    font-size: 20px; 
+    margin: 35px 203px;
+    
+}
+.footerthird p{
+    justify-content: space-around;
+
+}
+.footerthird ul li{
+    margin:0px 10px;
+    list-style: none;
+}
+.text-center{
+    text-align:center;
+    font-size: 20px;
+    color:grey;
+}
+
+
+
